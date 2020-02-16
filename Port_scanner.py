@@ -17,8 +17,7 @@ def portchecker(port):
 	# Now we recieve the data sent to use
 	if(result == 0):
 		print('Port {0} is opened \n'.format(port))
-	else:
-		print('Port {0} is closed \n'.format(port))
+		
 		# Close the socked connection
 	sock.close()
 
